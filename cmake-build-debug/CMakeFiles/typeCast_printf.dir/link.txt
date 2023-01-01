@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\typeCast_printf.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\typeCast_printf.dir/objects.a @CMakeFiles\typeCast_printf.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\typeCast_printf.dir/objects.a -Wl,--no-whole-archive -o typeCast_printf.exe -Wl,--out-implib,libtypeCast_printf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\typeCast_printf.dir\linklibs.rsp
